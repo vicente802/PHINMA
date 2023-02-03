@@ -1,0 +1,150 @@
+*{
+	font-family: 'lato', sans-serif;
+}
+
+body{
+	background: linear-gradient(-45deg, #0d70a9, #6fd55b, #0b759c, #c6e627);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+div.phinmaeduc {
+	margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+	color: azure;
+    /* color: #505050; */
+    vertical-align: top;
+}
+
+div.phinmaeduc:after {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    content: "MAKING LIVES BETTER THOURGH EDUCATION";
+}
+.phinma {
+    display: inline-block;
+}
+.phinma img {
+	width: 120px;
+	height: 90px;
+    display: inline-block;
+}
+
+.login-div{
+	margin: 0px auto;
+	width: 350px;
+	padding: 60px;
+	background-color: white;
+	border-radius: 25px;
+}
+
+
+.logo{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.title, .sub-title{
+	text-align: center;
+	
+}
+
+.title{
+	font-weight: bolder;
+	font-size: 30px;
+	color: #505050;
+}
+
+.sub-title{
+	font-size: 15px;
+	color: darkcyan;
+}
+
+.form{
+	width: 100%;
+	margin-top: 30px;
+}
+
+.form input{
+	width: 70%;
+	font-size: 18px;
+	padding: 10px 20px 10px 5px;
+	border: none;
+	outline: none;
+	background: none;
+}
+
+.username, .password{
+	display: block;
+	border-radius: 30px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	margin: 10px 0;
+}
+
+.form svg{
+	height: 25px;
+	margin-bottom: -5px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.options{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 5px 0px;
+	margin-bottom: 30px;
+}
+
+
+button.btn {
+	width: 100%;
+	padding: 12px 10px;
+	border: none;
+	font-size: 18px;
+	border-radius: 30px;
+	background: linear-gradient(-45deg, #0d70a9, #6fd55b, #0b759c, #c6e627);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	color: white;
+	margin-bottom: 5px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.error{
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('https://i.imgur.com/GnyDvKN.png');
+    background-repeat: no-repeat;
+    height: 34px;
+    padding: 0px;
+    border-radius: 8px 8px 8px 8px;
+    
+}
